@@ -1,10 +1,7 @@
 package br.com.dudadev;
 
 import br.com.dudadev.models.Empregado;
-import br.com.dudadev.test.TesteAdministrador;
-import br.com.dudadev.test.TesteEmpregado;
-import br.com.dudadev.test.TesteFornecedor;
-import br.com.dudadev.test.TestePessoa;
+import br.com.dudadev.test.*;
 
 public class Main {
     public static void main(String[] args) {
@@ -13,10 +10,12 @@ public class Main {
         TesteFornecedor testeFornecedor = new TesteFornecedor();
         TesteEmpregado testeEmpregado = new TesteEmpregado();
         TesteAdministrador testeAdministrador = new TesteAdministrador();
+        TesteOperario testeOperario = new TesteOperario();
 
 //        testePessoa.testaPessoa();
 //        testeFornecedor.testaFornecedor();
 //        testeEmpregado.testaEmpregado();
-        testeAdministrador.testaAdministrador();
+//        testeAdministrador.testaAdministrador();
+        testeOperario.testaOperario();
     }
 }
