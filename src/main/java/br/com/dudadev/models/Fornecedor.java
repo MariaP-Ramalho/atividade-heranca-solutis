@@ -23,10 +23,6 @@ public class Fornecedor extends Pessoa{
         this.valorDivida = valorDivida;
     }
 
-    public double obterSaldo(){
-        return this.valorCredito - this.valorDivida;
-    }
-
     public double getValorCredito() {
         return valorCredito;
     }
@@ -43,11 +39,13 @@ public class Fornecedor extends Pessoa{
         this.valorDivida = valorDivida;
     }
 
+    public double obterSaldo(){
+        return this.valorCredito - this.valorDivida;
+    }
+
     @Override
     public String toString() {
-        return "nome: " + getNome() +
-                ", endereco: " + getEndereco() +
-                ", telefone: " + getTelefone() +
+        return super.toString() +
                 ", valorCredito: " + valorCredito +
                 ", valorDivida: " + valorDivida +
                 ", saldo: " + obterSaldo();

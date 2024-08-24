@@ -22,9 +22,9 @@ public class TesteFornecedor {
 
         System.out.println("--------------------------------------------------");
 
-        System.out.println("Teste de getters e setters atribuindo valores a pessoa 1");
+        System.out.println("Teste de getters e setters atribuindo valores a fornecedor 1");
 
-        fornecedor1.setNome("Joaquim");
+        fornecedor1.setNome("Empresa Y");
         fornecedor1.setTelefone("1122334455");
         fornecedor1.setValorCredito(15000.0);
         fornecedor1.setValorDivida(5000.0);
