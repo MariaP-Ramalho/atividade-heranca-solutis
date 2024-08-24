@@ -51,7 +51,7 @@ public class Pessoa {
     @Override
     public String toString() {
         return "Nome: " + getNome() +
-                " Telefone: " + getTelefone() +
-                " Endereço: " +getEndereco();
+                ", Telefone: " + getTelefone() +
+                ", Endereço: " +getEndereco();
     }
 }
