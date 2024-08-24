@@ -53,6 +53,6 @@ public class Empregado extends Pessoa{
                 ", Codigo do setor: " + codigoSetor +
                 ", Salario Base: R$" + salarioBase +
                 ", Imposto: " + imposto + "%" +
-                ", Salraio: R$" + calcularSalario();
+                ", Salario: R$" + calcularSalario();
     }
 }
