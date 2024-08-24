@@ -19,13 +19,6 @@ public class Empregado extends Pessoa{
         this.imposto = imposto;
     }
 
-    public Empregado(String nome, String telefone, int codigoSetor, double salarioBase, double imposto) {
-        super(nome, telefone);
-        this.codigoSetor = codigoSetor;
-        this.salarioBase = salarioBase;
-        this.imposto = imposto;
-    }
-
     public int getCodigoSetor() {
         return codigoSetor;
     }

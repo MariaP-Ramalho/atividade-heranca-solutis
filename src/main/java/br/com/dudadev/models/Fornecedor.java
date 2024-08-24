@@ -17,12 +17,6 @@ public class Fornecedor extends Pessoa{
         this.valorDivida = valorDivida;
     }
 
-    public Fornecedor(String nome, String telefone, double valorCredito, double valorDivida) {
-        super(nome, telefone);
-        this.valorCredito = valorCredito;
-        this.valorDivida = valorDivida;
-    }
-
     public double getValorCredito() {
         return valorCredito;
     }
