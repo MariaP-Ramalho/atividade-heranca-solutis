@@ -13,11 +13,11 @@ public class Main {
         TesteOperario testeOperario = new TesteOperario();
         TesteVendedor testeVendedor = new TesteVendedor();
 
-//        testePessoa.testaPessoa();
-//        testeFornecedor.testaFornecedor();
-//        testeEmpregado.testaEmpregado();
-//        testeAdministrador.testaAdministrador();
-//        testeOperario.testaOperario();
+        testePessoa.testaPessoa();
+        testeFornecedor.testaFornecedor();
+        testeEmpregado.testaEmpregado();
+        testeAdministrador.testaAdministrador();
+        testeOperario.testaOperario();
         testeVendedor.testaVendedor();
     }
 }
