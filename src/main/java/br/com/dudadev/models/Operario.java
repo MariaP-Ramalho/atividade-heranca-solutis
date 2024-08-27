@@ -36,13 +36,13 @@ public class Operario extends Empregado{
 
     @Override
     public double calcularSalario() {
-        return (getSalarioBase() + (valorProducao * (comissao/100))) * (1 - (getImposto() / 100));
+        return (getSalarioBase() * (1 - (getImposto() / 100))) + (valorProducao * (comissao/100));
     }
 
     @Override
     public String toString() {
         return super.toString() +
-                ", valorProducao: " + valorProducao +
+                ", valor producao: " + valorProducao +
                 ", comissao: " + comissao;
     }
 }

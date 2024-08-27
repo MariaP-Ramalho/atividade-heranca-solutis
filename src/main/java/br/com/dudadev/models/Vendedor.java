@@ -36,13 +36,13 @@ public class Vendedor extends Empregado{
 
     @Override
     public double calcularSalario() {
-        return (getSalarioBase() + (valorVenda * (comissao/100))) * (1 - (getImposto() / 100));
+        return (getSalarioBase() * (1 - (getImposto() / 100))) + (valorVenda * (comissao/100));
     }
 
     @Override
     public String toString() {
         return super.toString() +
-                ", valorProducao: " + valorVenda +
+                ", valor vendas: " + valorVenda +
                 ", comissao: " + comissao;
     }
 }
