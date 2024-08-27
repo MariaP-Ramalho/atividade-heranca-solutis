@@ -23,7 +23,7 @@ public class Administrador extends Empregado{
 
     @Override
     public double calcularSalario() {
-        return (getSalarioBase() * (1 - (getImposto() / 100))) + ajudaDecusto;
+        return super.calcularSalario()  + ajudaDecusto;
     }
 
     @Override
